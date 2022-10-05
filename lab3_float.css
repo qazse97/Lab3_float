@@ -1,0 +1,38 @@
+
+
+.header {
+  background-color: #00FA9A;
+  padding: 15px;
+  height: 100px;
+}
+.footer{
+  background-color: #F0E68C;
+  padding: 15px;
+  height: 100px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+  height: 450px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 20%;
+  background-color: #7B68EE;
+}
+
+.content {
+  width: 76%;
+  background-color: #87CEEB;
+}
+
+
+
+
